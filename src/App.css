@@ -1,0 +1,75 @@
+.app {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.header {
+  background-color: #232227;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-size: 28px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.nav button {
+  margin: 20px 50px
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+form > div {
+  margin-bottom: 40px!important;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto 40px;
+}
+
+li {
+  padding: 10px 0;
+  text-align: left;
+}
+
+li > span {
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li > span.active {
+  font-weight: bold;
+}
+
+li > button {
+  margin-right: 10px!important;
+}
